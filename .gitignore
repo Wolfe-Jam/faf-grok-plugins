@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+project.faf.faf-auto
+project.faf.hand-authored
+project.faf.hand-backup-*
+project.faf.*-backup-*

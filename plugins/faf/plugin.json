@@ -1,0 +1,10 @@
+{
+  "name": "faf",
+  "version": "1.0.0",
+  "description": "Foundational Context Layer for Grok Build. Auto-discovers project.faf as the single source of truth, scores AI-readiness with ZEPH, and keeps context grounded.",
+  "author": {
+    "name": "Wolfe-Jam / FAF Foundation"
+  },
+  "homepage": "https://faf.one",
+  "keywords": ["faf", "project.faf", "context", "ai-readiness", "ZEPH", "IANA"]
+}

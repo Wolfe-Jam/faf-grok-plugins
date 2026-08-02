@@ -1,0 +1,22 @@
+{
+  "name": "faf-plugins",
+  "description": "Canonical FAF ecosystem plugins for Grok Build — structured context, persistent memory, agent identity",
+  "owner": {
+    "name": "Wolfe-Jam / FAF Foundation"
+  },
+  "plugins": [
+    {
+      "name": "faf",
+      "description": "Foundational Context Layer — auto-discovers project.faf as the single source of truth, ZEPH AI-readiness scoring, bi-directional awareness with AGENTS.md",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./plugins/faf"
+      },
+      "homepage": "https://faf.one",
+      "keywords": ["faf", "project.faf", "context", "ai-readiness", "ZEPH", "IANA"],
+      "author": "Wolfe-Jam",
+      "version": "1.0.0"
+    }
+  ]
+}

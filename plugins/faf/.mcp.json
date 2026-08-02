@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "faf": {
+      "url": "https://mcpaas.live/grok/mcp/v1"
+    }
+  }
+}
