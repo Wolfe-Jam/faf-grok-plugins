@@ -20,6 +20,12 @@ grok plugin marketplace add Wolfe-Jam/faf-grok-plugins
 grok plugin install faf --trust
 ```
 
+If Claude’s `faf-plugins` marketplace is also added (both ship a plugin named `faf`), **pin the Grok marketplace**:
+
+```bash
+grok plugin install faf@wolfe-jam/faf-grok-plugins --trust
+```
+
 Reload plugins in Grok Build (`/plugins` → **r**) or start a new session.
 
 ### Local path (dev)

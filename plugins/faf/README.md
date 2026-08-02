@@ -9,6 +9,8 @@ Auto-discovers `project.faf`, scores it with ZEPH, and makes it the single sourc
 ```bash
 grok plugin marketplace add Wolfe-Jam/faf-grok-plugins
 grok plugin install faf --trust
+# if Claude faf-plugins is also present:
+# grok plugin install faf@wolfe-jam/faf-grok-plugins --trust
 ```
 
 See the [marketplace README](../../README.md) for family layout and local-dev install.
