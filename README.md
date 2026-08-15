@@ -65,6 +65,14 @@ faf-grok-plugins/
 - MCP (Grok): [grok-faf-mcp](https://github.com/Wolfe-Jam/grok-faf-mcp) · `https://mcpaas.live/grok/mcp/v1`
 - Claude marketplace (sibling): [faf-plugins](https://github.com/Wolfe-Jam/faf-plugins)
 
+## Citation
+
+Context plugin lives on the `.faf` paper. The `.fafa` plugin (later) is specified by the Agents paper — who the agent is, in the agentic era.
+
+> Wolfe, J. (2025). *Format-Driven AI Context Architecture: The .faf Standard for Persistent Project Understanding*. Zenodo. https://doi.org/10.5281/zenodo.18251362
+
+> Wolfe, J. (2026). *Why Agents Need a Passport: .fafa — Portable Identity for the Agentic Era*. Zenodo. https://doi.org/10.5281/zenodo.21951641
+
 ## License
 
 MIT — Wolfe-Jam / FAF Foundation
