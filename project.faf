@@ -1,0 +1,41 @@
+faf_version: "3.0"
+project:
+  name: faf-grok-plugins
+  goal: "One marketplace for FAF plugins in Grok Build: the faf context plugin is live; fafm and fafa come later."
+  main_language: "Shell"
+  type: "skills-plugin"
+stack:
+  frontend: "Grok Build plugin"
+  css_framework: slotignored
+  ui_library: slotignored
+  state_management: slotignored
+  backend: slotignored
+  api_type: slotignored
+  runtime: "Bash"
+  database: slotignored
+  connection: slotignored
+  hosting: "GitHub"
+  build: ""
+  cicd: ""
+  monorepo_tool: slotignored
+  package_manager: slotignored
+  workspaces: slotignored
+  admin: slotignored
+  cache: slotignored
+  search: slotignored
+  storage: slotignored
+human_context:
+  who: "Developers using xAI Grok Build"
+  what: "Canonical FAF ecosystem plugins for Grok Build"
+  why: "One marketplace. Install only what you need."
+  where: "Grok Build, via grok plugin marketplace add Wolfe-Jam/faf-grok-plugins"
+  when: "faf plugin v1.0.0 live; fafm and fafa later"
+  how: "grok plugin marketplace add Wolfe-Jam/faf-grok-plugins, then grok plugin install faf --trust"
+monorepo:
+  packages_count: slotignored
+  build_orchestrator: slotignored
+  versioning_strategy: slotignored
+  shared_configs: slotignored
+  remote_cache: slotignored
+key_files:
+  - README.md
