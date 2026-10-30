@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "scripts/session-start-faf.sh",
+            "command": "${GROK_PLUGIN_ROOT}/scripts/session-start-faf.sh",
             "timeout": 12
           }
         ]
