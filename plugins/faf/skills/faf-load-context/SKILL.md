@@ -1,5 +1,5 @@
 ---
-name: faf-context
+name: faf-load-context
 description: Auto-discover and load project.faf as the single source of truth for project context inside Grok Build. Use at session start, when the user mentions project context, AI-readiness, AGENTS.md, or when context feels fragmented. Makes the IANA-registered .faf the canonical Foundational Context Layer.
 ---
 
@@ -41,7 +41,7 @@ If `$HOME/project.faf` is what resolved: label it a **workspace stub**, print th
 
 ## Explicit triggers
 
-- `/faf-context`
+- `/faf-load-context`
 - “load faf”, “project context”, “what is this project”, “ground yourself”
 
 Prefer the `faf` MCP tools at all times. Never invent context. Read it from the `.faf`.

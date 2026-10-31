@@ -2,7 +2,7 @@
 
 Auto-discovers `project.faf`, scores it with ZEPH, and makes it the single source of truth inside Grok Build sessions.
 
-**Plugin name:** `faf` · **Version:** 1.0.0 · **Layer:** context (`.faf`)
+**Plugin name:** `faf` · **Version:** 1.1.0 · **Layer:** context (`.faf`)
 
 ## Install (via marketplace)
 
@@ -22,7 +22,7 @@ Scoring is **cwd-relative**. Always report the **absolute path** of `project.faf
 ## What it does
 
 - **SessionStart:** discovers nearest `project.faf`, prints absolute path, writes a receipt
-- **Skills:** `faf-context`, `faf-score`
+- **Skills:** `faf-load-context`, `faf-score`
 - **MCP:** [grok-faf-mcp](https://github.com/Wolfe-Jam/grok-faf-mcp) at `https://mcpaas.live/grok/mcp/v1` (ZEPH default)
 
 ## Dogfood

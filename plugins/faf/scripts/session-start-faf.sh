@@ -55,17 +55,17 @@ echo "Found: $FAF_FILE kind=$KIND" >> "$LOG"
   echo "kind: $KIND"
   echo "home_stub: $HOME_STUB"
   echo "timestamp: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-  echo "plugin: faf@1.0.0"
+  echo "plugin: faf@1.1.0"
   echo "status: discovered"
 } > "$DATA_DIR/last-faf-receipt.txt"
 
 # Path first — always print absolute path so the user can trust (or reject) the hit
 if [[ "$HOME_STUB" -eq 1 ]]; then
   echo "FAF path: $FAF_FILE"
-  echo "FAF: workspace stub (not a product repo). cd into a real project or pass a path. Then: faf-context / faf-score."
+  echo "FAF: workspace stub (not a product repo). cd into a real project or pass a path. Then: faf-load-context / faf-score."
 else
   echo "FAF path: $FAF_FILE"
-  echo "FAF context available ($KIND) — use faf-context or faf-score to load and score."
+  echo "FAF context available ($KIND) — use faf-load-context or faf-score to load and score."
 fi
 
 exit 0

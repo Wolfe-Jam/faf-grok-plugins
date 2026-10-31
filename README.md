@@ -6,7 +6,7 @@ One marketplace. Install only what you need. Cascade the rest without new repos.
 
 | Plugin | Layer | Format | Status |
 |--------|--------|--------|--------|
-| **faf** | Context | `.faf` | **v1.0.0** — live |
+| **faf** | Context | `.faf` | **v1.1.0** — live |
 | **fafm** | Memory | `.fafm` | later → `plugins/fafm/` |
 | **fafa** | Agent | `.fafa` | later → `plugins/fafa/` |
 
