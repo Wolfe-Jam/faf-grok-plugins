@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "faf",
-      "description": "Foundational Context Layer — auto-discovers project.faf as the single source of truth, ZEPH AI-readiness scoring, bi-directional awareness with AGENTS.md",
+      "description": "Foundational Context Layer — auto-discovers project.faf as the single source of truth, always-33 scoring (the same score as faf-cli), bi-directional awareness with AGENTS.md",
       "category": "development",
       "source": {
         "type": "local",
@@ -16,7 +16,7 @@
       "homepage": "https://faf.one",
       "keywords": ["faf", "project.faf", "context", "ai-readiness", "ZEPH", "IANA"],
       "author": "Wolfe-Jam",
-      "version": "1.1.0"
+      "version": "1.1.1"
     }
   ]
 }

@@ -34,7 +34,7 @@ If `$HOME/project.faf` is what resolved: label it a **workspace stub**, print th
 2. If found, call the MCP tools (content-based where required):
    - read from disk when no path tool exists
    - `refresh_faf` (re-ground)
-   - `faf_score` (ZEPH-powered)
+   - `faf_score` (always-33 faf-kernel)
 3. Report score and tier (path already shown).
 4. Inject a concise summary of key slots into working context.
 5. If platform files diverge, recommend `faf sync` / bi-sync when available.

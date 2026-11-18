@@ -37,7 +37,7 @@ grok plugin install faf --trust
 
 ## Family
 
-- **faf** — Foundational Context Layer (`project.faf`, ZEPH scoring, SessionStart discovery)
+- **faf** — Foundational Context Layer (`project.faf`, always-33 scoring, SessionStart discovery)
 - **faf-memory / fafm** — Permanent Memory Layer (Claude package exists; Grok folder later)
 - **faf-agent / fafa** — Agent identity layer (later)
 

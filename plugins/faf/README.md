@@ -1,6 +1,8 @@
 # faf — Foundational Context Layer for Grok Build
 
-Auto-discovers `project.faf`, scores it with ZEPH, and makes it the single source of truth inside Grok Build sessions.
+Auto-discovers `project.faf`, scores it with the always-33 faf-kernel (the same score as faf-cli), and makes it the single source of truth inside Grok Build sessions.
+
+ZEPH, FAF's Zig scoring engine, is on npm as [`faf-zeph`](https://www.npmjs.com/package/faf-zeph).
 
 **Plugin name:** `faf` · **Version:** 1.1.0 · **Layer:** context (`.faf`)
 
@@ -23,7 +25,7 @@ Scoring is **cwd-relative**. Always report the **absolute path** of `project.faf
 
 - **SessionStart:** discovers nearest `project.faf`, prints absolute path, writes a receipt
 - **Skills:** `faf-load-context`, `faf-score`
-- **MCP:** [grok-faf-mcp](https://github.com/Wolfe-Jam/grok-faf-mcp) at `https://mcpaas.live/grok/mcp/v1` (ZEPH default)
+- **MCP:** [grok-faf-mcp](https://github.com/Wolfe-Jam/grok-faf-mcp) at `https://mcpaas.live/grok/mcp/v1`
 
 ## Dogfood
 
