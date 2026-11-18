@@ -1,7 +1,7 @@
 faf_version: "3.0"
 project:
   name: faf
-  goal: Auto-discovers `project.faf`, scores it with ZEPH, and makes it the single source of truth inside Grok Build sessions.
+  goal: Auto-discovers project.faf, scores it with the always-33 faf-kernel (the same score as faf-cli), and makes it the single source of truth inside Grok Build sessions.
   main_language: Markdown
   type: plugin
 stack:
@@ -26,7 +26,7 @@ stack:
   storage: slotignored
 human_context:
   who: Developers using xAI Grok Build
-  what: Auto-discovers project.faf, scores it with ZEPH, and makes it the single source of truth inside Grok Build sessions.
+  what: Auto-discovers project.faf, scores it with the always-33 faf-kernel (the same score as faf-cli), and makes it the single source of truth inside Grok Build sessions.
   why: Eliminate session-zero context tax
   where: Grok Build sessions, local plugin path
   when: Production Phase 1, v1.0.0

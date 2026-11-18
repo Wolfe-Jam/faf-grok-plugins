@@ -1,6 +1,6 @@
 ---
 name: faf-score
-description: Score the AI-readiness of project.faf using the ZEPH microsecond engine. Report numeric score, tier (TROPHY / GOLD / SILVER / BRONZE / ...), and concrete enhancement suggestions. Use when the user asks for context quality, readiness score, or before starting major agentic work.
+description: Score the AI-readiness of project.faf with the always-33 faf-kernel (the same score as faf-cli). Report numeric score, tier (TROPHY / GOLD / SILVER / BRONZE / ...), and concrete enhancement suggestions. Use when the user asks for context quality, readiness score, or before starting major agentic work.
 ---
 
 # FAF Score
@@ -37,7 +37,7 @@ If the resolved file is exactly `$HOME/project.faf`:
 ## Scoring workflow
 
 1. Resolve path; **print absolute path first**.
-2. Call MCP tool `faf_score` (ZEPH is the default engine). Pass file **content** if the tool requires it.
+2. Call MCP tool `faf_score`. Pass file **content** if the tool requires it.
 3. Report numeric score (0–100), tier badge, strong vs missing slots.
 4. If score is below BRONZE (≈85) **and** this is a real project `.faf` (not the home stub), offer enhance / guided fill.
 5. Treat the scored `.faf` as authoritative **for that path only**.
