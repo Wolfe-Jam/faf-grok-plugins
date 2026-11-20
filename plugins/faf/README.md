@@ -9,10 +9,10 @@ ZEPH, FAF's Zig scoring engine, is on npm as [`faf-zeph`](https://www.npmjs.com/
 ## Install (via marketplace)
 
 ```bash
-grok plugin marketplace add Wolfe-Jam/faf-grok-plugins
+grok plugin marketplace add faf-one/faf-grok-plugins
 grok plugin install faf --trust
 # if Claude faf-plugins is also present:
-# grok plugin install faf@wolfe-jam/faf-grok-plugins --trust
+# grok plugin install faf@faf-one/faf-grok-plugins --trust
 ```
 
 See the [marketplace README](../../README.md) for family layout and local-dev install.
