@@ -14,7 +14,7 @@ One marketplace. Install only what you need. Cascade the rest without new repos.
 
 ```bash
 # 1. Add the marketplace (once)
-grok plugin marketplace add Wolfe-Jam/faf-grok-plugins
+grok plugin marketplace add faf-one/faf-grok-plugins
 
 # 2. Install the context plugin
 grok plugin install faf --trust
@@ -23,7 +23,7 @@ grok plugin install faf --trust
 If Claude’s `faf-plugins` marketplace is also added (both ship a plugin named `faf`), **pin the Grok marketplace**:
 
 ```bash
-grok plugin install faf@wolfe-jam/faf-grok-plugins --trust
+grok plugin install faf@faf-one/faf-grok-plugins --trust
 ```
 
 Reload plugins in Grok Build (`/plugins` → **r**) or start a new session.
